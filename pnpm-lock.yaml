@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/plus-jakarta-sans':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@mantine/core':
     specifier: ^7.2.2
     version: 7.2.2(@mantine/hooks@7.2.2)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
@@ -353,6 +356,10 @@ packages:
 
   /@floating-ui/utils@0.1.6:
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
+    dev: false
+
+  /@fontsource-variable/plus-jakarta-sans@5.0.18:
+    resolution: {integrity: sha512-VSBjZU3gTaMmz2bVgcyw8xU2oyrLvLlDV4zSZFBLOrO1AvrG20RHW85VKUdRCwbM5Ih2fmRlXkWhdIIUs45bmA==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.13:

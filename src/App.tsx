@@ -1,5 +1,7 @@
 import { MantineProvider, Title } from "@mantine/core";
-// CSS imports
+// Fonts
+import "@fontsource-variable/plus-jakarta-sans";
+// CSS
 import "@mantine/core/styles.css";
 
 function App() {
