@@ -1,8 +1,8 @@
-import { createTheme } from '@mantine/core'
+import { createTheme, mergeThemeOverrides } from '@mantine/core'
+import { themeColor } from './colors'
 
-export const theme = createTheme({
+const themeTypography = createTheme({
   fontFamily: 'Plus Jakarta Sans Variable, sans-serif',
-  headings: {
-    fontWeight: '400',
-  },
 })
+
+export const theme = mergeThemeOverrides(themeTypography, themeColor)

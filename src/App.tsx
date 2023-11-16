@@ -1,14 +1,15 @@
-import { MantineProvider, Title } from '@mantine/core'
+import { MantineProvider } from '@mantine/core'
+import { Todo } from './Todo'
 import { theme } from './theme'
 // Fonts
 import '@fontsource-variable/plus-jakarta-sans'
 // CSS
-import '@mantine/core/styles.css'
+import '@mantine/core/styles.layer.css'
 
 function App() {
   return (
     <MantineProvider theme={theme}>
-      <Title>er-Todo</Title>
+      <Todo />
     </MantineProvider>
   )
 }
