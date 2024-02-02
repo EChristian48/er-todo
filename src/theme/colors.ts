@@ -1,19 +1,19 @@
 import { MantineColorsTuple, createTheme } from '@mantine/core'
 
-const sunriseYellow: MantineColorsTuple = [
-  '#fefde4',
-  '#f9f8d1',
-  '#f3f1a6',
-  '#ece977',
-  '#e7e250',
-  '#e3de36',
-  '#e2dc27',
-  '#c8c217',
-  '#b1ac0c',
-  '#989400',
+const fontainianGold: MantineColorsTuple = [
+  '#fff6e2',
+  '#ffedce',
+  '#fbda9f',
+  '#f8c66b',
+  '#f6b541',
+  '#f5aa25',
+  '#f4a414',
+  '#d98f05',
+  '#c17f00',
+  '#a86c00',
 ]
 
-const desertOrange: MantineColorsTuple = [
+const midnightIndigo: MantineColorsTuple = [
   '#fff5e3',
   '#fdead0',
   '#f7d3a4',
@@ -26,12 +26,40 @@ const desertOrange: MantineColorsTuple = [
   '#a05f00',
 ]
 
+const celestialAzure: MantineColorsTuple = [
+  '#e6f2ff',
+  '#cee0ff',
+  '#9bbeff',
+  '#6499ff',
+  '#387bfe',
+  '#1d67fe',
+  '#095eff',
+  '#004ee4',
+  '#0045cc',
+  '#003ab5',
+]
+
+const shadowedCharcoal: MantineColorsTuple = [
+  '#e9e9ea',
+  '#d4d4d4',
+  '#bebebf',
+  '#a8a8aa',
+  '#939395',
+  '#7d7d7f',
+  '#67676a',
+  '#515155',
+  '#3c3c3f',
+  '#26262a',
+]
+
 export const colors = {
-  ['sunrise-yellow']: sunriseYellow,
-  ['desert-orange']: desertOrange,
+  ['fontainian-gold']: fontainianGold,
+  ['midnight-indigo']: midnightIndigo,
+  ['celestial-azure']: celestialAzure,
+  ['shadowed-charcoal']: shadowedCharcoal,
 }
 
 export const themeColor = createTheme({
-  primaryColor: 'sunrise-yellow',
+  primaryColor: 'fontainian-gold',
   colors,
 })
